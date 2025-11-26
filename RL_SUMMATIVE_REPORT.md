@@ -2,7 +2,7 @@
 
 **Student Name:** [Your Name]  
 **Video Recording:** [Link to your Video 3 minutes max, Camera On, Share the entire Screen]  
-**GitHub Repository:** https://github.com/[username]/Summative_tech_2  
+**GitHub Repository:** https://github.com/ktanguy/Summative_tech_2  
 **Date:** November 24, 2025
 
 ---

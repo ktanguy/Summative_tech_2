@@ -1,54 +1,48 @@
 # AI Warehouse Automation - Live Demo
-🤖 **Reinforcement Learning Project with Live Robot Animation**
 
-## 🎯 What This Does
-Shows 2 robots (DQN & PPO) learning to work in a warehouse in **real-time animation**!
+**Reinforcement Learning Project with Live Robot Animation**
 
-## 🚀 How to Run (Super Simple!)
+## Overview
 
-### Main Demo (For Presentations):
+This project demonstrates reinforcement learning algorithms in a warehouse automation scenario with real-time visualization. The system shows multiple RL agents (DQN and PPO) learning to perform warehouse tasks including item pickup, delivery, and energy management.
+
+## Quick Start
+
+### Main Demo
 ```bash
 python3 live_robot_demo.py
 ```
-**This is your main demo!** - Shows robots moving and learning live
+This runs the main demonstration showing robots moving and learning in real-time.
 
-### Train Models:
+### Training Models
 ```bash
-python3 training/dqn_training.py       # Train DQN
-python3 training/pg_training.py        # Train PPO, A2C, REINFORCE  
+python3 training/dqn_training.py       # Train DQN agent
+python3 training/pg_training.py        # Train PPO, A2C, REINFORCE agents
 ```
 
-### Web Demo:
+### Web Demo
 ```bash
 open professional_demo.html
 ```
 
-## 📁 What's in Here
+## Project Structure
 ```
-📱 live_robot_demo.py        ← MAIN DEMO (run this!)
-🏗️ environment/              ← Custom warehouse 
-🤖 training/                 ← 4 RL algorithms
-🧠 models/                   ← Trained models
-📊 results/                  ← Training results
-🌐 professional_demo.html    ← Web demo
-📋 PRESENTATION_GUIDE.md     ← How to present
+live_robot_demo.py           # Main demonstration script
+environment/                 # Custom warehouse environment
+training/                    # RL algorithm implementations
+models/                      # Trained model weights
+results/                     # Training results and metrics
+professional_demo.html       # Web-based demonstration
 ```
 
-## 🎬 What You'll See
-- 🔴 **Red Robot (DQN)** - Learns one strategy
-- 🔵 **Blue Robot (PPO)** - Learns different strategy  
-- 📈 **Live charts** showing learning progress
-- ⚡ **Energy management** (robots go charge)
-- ✅ **Task completion** (pick up & deliver items)
+## Features
 
-## 🎓 For Your Assignment
-✅ Custom environment  
-✅ 4 RL algorithms (DQN, PPO, A2C, REINFORCE)  
-✅ Live visualization  
-✅ Professional presentation  
-✅ Clean code structure  
+- **Multi-Agent Learning**: Red Robot (DQN) and Blue Robot (PPO) with different learning strategies
+- **Real-time Visualization**: Live charts showing learning progress and performance metrics
+- **Energy Management**: Robots autonomously manage battery levels and charging behavior
+- **Task Completion**: Dynamic pickup and delivery of warehouse items
+- **Algorithm Comparison**: Implementation of DQN, PPO, A2C, and REINFORCE algorithms
 
-**Perfect for summative assessments!**
+## Technical Details
 
----
-*MacBook Pro 2018 compatible - No Unity needed!*
+The project implements four reinforcement learning algorithms in a custom warehouse environment with live visualization capabilities. The system is optimized for educational demonstrations and research purposes.
